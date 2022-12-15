@@ -1,8 +1,8 @@
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
-import AuthMiddleware from "./middlewares/AuthMidleware.js";
-import apiRoute, { apiProtected } from "./routes/api.js";
+import AuthMiddleware from "./src/middlewares/AuthMidleware.js";
+import apiRoute, { apiProtected } from "./src/routes/api.js";
 // import { DB_CONNECT } from "./utils/constants.js";
 import path from "path";
 
